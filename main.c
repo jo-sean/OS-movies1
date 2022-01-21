@@ -412,7 +412,7 @@ int moviesByLanguage(struct movie* movieNode, char *languageValue)
     // If movies were with with provided language, prints below.
     if (counter == 0)
     {
-        print("\n")
+        printf("\n");
         printf("No data about movies released in %s \n", languageValue);
     }
 
